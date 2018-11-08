@@ -1,0 +1,104 @@
+.buttonOnHeader, #userData
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.buttonOnHeader .btn-group-verticale
+{
+    width: 140px;
+    margin-right: 75px!important;
+}
+
+.vk_login_img
+{
+    top: 8px;
+    right: 0;
+    position: absolute;
+    width: 67px!important;
+}
+
+.has-danger .is-invalid {
+    background-image: none;
+}
+
+.has-success .is-valid{
+    background-image: none;
+}
+
+#userData
+{
+    width: 97px;
+    margin-right: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 1199px) {
+    #userData
+    {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin-right: 0;
+        color: white;
+    }
+    
+    .userLogin
+    {
+        display: inline-block;
+        margin-top: 11px;
+    }
+    
+    .exitUser
+    {
+        display: inline-block;
+        width: 35px;
+        background: none;
+    }
+    
+    .exitUserForm{
+        display: inline-block;
+        width: 35px;
+        padding-top: 8px;
+    }
+    
+    .userDataForSmallScrean
+    {
+        float: right;
+        padding-right: 8px;
+    }
+}
+
+.user_ava
+{
+    color: black;
+}
+
+.exitUser
+{
+    color: black;
+}
+
+#buttonForLoginSmallScr
+{
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+#errorArea, #errorAreaLogin, #errorAreaPassRecovery{
+    color: crimson;
+}
+
+#signup-form-recaptcha-invalid-feedback, #passRecoveryRecaptchaError
+{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#passRecovery{
+    height: 34px;
+    width: auto;
+}

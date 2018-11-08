@@ -1,0 +1,16 @@
+html{
+    width: 100%;
+    background-image: url(../images/user_login/bg-repeat.jpg);
+    background-repeat: repeat;
+}
+
+#changePassForm{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+#errorArea{
+    color: crimson;
+}

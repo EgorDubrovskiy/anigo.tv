@@ -1,0 +1,36 @@
+.video-js .vjs-tech {
+    position: relative;
+    height: auto;
+}
+
+.my-video-dimensions {
+    width: 100%;
+    height: auto;
+}
+
+.video-js .vjs-big-play-button {
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    left: 50% !important;
+    top: 0;
+    left: 0;
+    border-width: 0px;
+}
+
+#everythingInVideo {
+    position: relative;
+}
+
+.video-js:hover .vjs-big-play-button{
+    background-color: #ff0000;
+    transition: 0.5s;
+}
+
+.video-js .vjs-big-play-button{
+    transition: 0.5s;
+}
+
+/*стилизация полосы прокрутки*/
+.mCSB_inside > .mCSB_container {
+    margin-right: 16px !important;
+}

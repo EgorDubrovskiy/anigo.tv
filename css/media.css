@@ -1,0 +1,147 @@
+@media screen and (max-width: 570px) {
+        .AnimeFlayrsButJump{
+        width: 34px;
+    }
+
+    .AnimeFlayrsButJumpActive{
+        width: 34px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .searchAnime ul
+    {
+        top: 94px;
+    }
+
+    #mainMenuContent ul {
+        flex-direction: row !important;
+    }
+
+    #mainMenuContent ul li .dropdown-menu {
+        position: absolute;
+    }
+
+    .dropdownMenuButton {
+        width: 80px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    #mainMenuContent ul {
+        width: 725px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    
+    .searchAnime ul
+    {
+        width: 343.4px !important;
+        top: 140px;
+    }
+    
+    .mainMenuAuthors {
+        padding-right: 0;
+    }
+
+    #mainMenuContent ul {
+        width: 431.2px;
+    }
+
+    .searchAnime {
+        display: none;
+    }
+
+    .searchAnime2 {
+        width: 431.2px;
+        height: 38px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        margin-top: 8px;
+        display: block !important;
+    }
+
+    .searchAnime2 input {
+        display: inline-block;
+        width: 343.4px !important;
+        margin-right: 3px !important;
+        vertical-align: baseline !important;
+    }
+
+    .searchAnime2 button {
+        width: 80px !important;
+        vertical-align: baseline;
+    }
+
+}
+
+/*убираем по предложению у футера в зависимости от рпазр. экрана начало*/
+@media screen and (max-width: 1085px) {
+    .footer_main_content_top1086
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .footer_main_content_top940
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 871px) {
+    .footer_main_content_top871
+    {
+        display: none;
+    }
+    .footer_main_content_top940
+    {
+        display: inline;
+    }
+    .footer_main_content_top1086
+    {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .footer_main_content_top940
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .footer_main_content_top1086
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .footer_main_content_top525
+    {
+        display: none;
+    }
+}
+/*убираем по предложению у футера в зависимости от рпазр. экрана конец*/
+
+@media screen and (min-width: 1374px) {
+    .footer_main_content{
+        transform: translateY(10%);
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1922px) {
+    .footer_main_content{
+        transform: translateY(40%);
+    }
+}

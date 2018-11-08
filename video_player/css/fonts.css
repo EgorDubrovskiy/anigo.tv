@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "icomoon";
+	src: url("/video_player/fonts/icomoon/icomoon.eot");
+	src: url("/video_player/fonts/icomoon/icomoon.eot?#iefix") format("embedded-opentype"),
+			 url("/video_player/fonts/icomoon/icomoon.woff") format("woff"),
+			 url("/video_player/fonts/icomoon/icomoon.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RobotoCondensedRegular";
+	src: url("/video_player/fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+	src: url("/video_player/fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"),
+			 url("/video_player/fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"),
+			 url("/video_player/fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

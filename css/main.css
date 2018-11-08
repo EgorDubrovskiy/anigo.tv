@@ -1,0 +1,225 @@
+body{
+  padding-right: 0 !important;
+}
+
+body {
+    /* -webkit-user-select: none;/*запрещаем выделение текста*/
+}
+
+body {
+    background-image: url(/images/bg-repeat.jpg);
+    background-repeat: repeat;
+}
+
+.dropdownMenuButton:hover {
+    background: none !important;
+}
+
+.dropdownMenuButton {
+    width: 90px;
+}
+
+#mainMenuContent ul li {
+    margin-right: 7.8px;
+}
+
+
+#mainMenuContent ul {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.logotypeLi {
+    width: 160px;
+    padding-top: 6px !important;
+}
+
+.logotypeLi:hover {
+    border: 1px solid transparent;
+    border-color: none;
+}
+
+.animeFlayerMainPageImg {
+    font-family: BenderBlackItalic;
+    background: #e91c2b;
+    width: 100%;
+    /*если текст не вмещаеться обрезаем и доб. многоточие*/
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+}
+
+.searchAnime button {
+    width: 80px;
+}
+
+.animeFlayerMainPage{
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+}
+
+.animeFlayerMainPageViews {
+    position: absolute;
+    top: 0;
+    height: 23px;
+    font-size: 1.1em;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: BebasBold;
+    color: white;
+    background-color: rgba(52, 58, 64,0.85);
+    /*если текст не вмещаеться обрезаем и доб. многоточие*/
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+    
+    /*решение проблемы с width при абсалютном позиционировании*/
+    left: .25rem;
+    right: .25rem;
+}
+
+.animeFlayerMainPagePlayImg{
+    position: absolute;
+    width: 36%;
+    top: 35%;
+    left: 32%;
+    opacity: 0;
+}
+
+.animeFlayerMainPage:hover .animeFlayerMainPagePlayImg{
+    opacity: 1;
+    transition: 1s linear;
+}
+
+.AnimeFlayrsButJump{
+    width: 40px;
+    color: #fff !important;
+}
+
+.AnimeFlayrsButJumpActive{
+    z-index: 1;
+    width: 40px;
+    background-color: #343a40!important;
+    border-color: #343a40!important;
+}
+
+.AnimeFlayrsButJumpActive:hover{
+    background-color: white !important;
+    border-color: white !important;
+    color: #dc3545 !important;
+}
+
+footer{
+    height: 112px;
+    background-image: url(/images/footer-bg.jpg);
+}
+
+footer .container-fluid{
+    width: 1100px;
+    margin-left: .50rem !important;
+    margin-right: auto !important;
+}
+
+.footer_main_content{
+    height: 112px;
+    overflow: hidden;/* Обрезаем все, что не помещается в область */
+    padding-top: .50rem;
+    padding-left: .50rem;
+    color: #e91c2b;
+    font-family: BenderRegular;
+    font-weight: bolder;
+}
+
+.footer-help{
+    float: left;
+    padding-top: .50rem;
+    padding-left: .50rem;
+    margin-right: .50rem;
+    height: 100%;
+    width: 225px;
+    font-family: BenderRegular;
+    color: white;
+}
+
+.footer-help img{
+    float: right;
+    height: 93px;;
+}
+
+.containerBodyAndFoot{
+    /*position: absolute;/*решение проблемы с дерганием контента под слайдером*/
+}
+
+.searchAnime ul
+{
+    display: none;
+    border: 0px solid #343a40;
+    border-radius: .25rem;
+    background-color: #343a40!important;
+    z-index: 1;
+    position: absolute;
+    top: 46px;
+    width: 198px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+}
+
+.searchAnime ul:hover{
+    cursor: pointer;
+}
+
+.searchAnime ul li
+{
+    margin: 0!important;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    list-style-type: none; /* Убираем маркеры */
+    /*если текст не вмещаеться обрезаем и доб. многоточие*/
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+}
+
+.searchAnime ul li:hover{
+    background: white;
+    color: #3742fa;
+}
+
+.dropdown-menu {
+    min-width: 90px !important;
+}
+
+.animeFlayerMainPage:hover{
+    cursor: default;
+}
+
+.animeFlayerMainPagePlayImg{
+    cursor: pointer;
+}
+
+/*скроллер*/
+#cont {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 2px;
+  z-index: 9999;
+}
+
+#progress {
+  background: #ED5E42;
+  width: 0%;
+  height: 4px;
+}

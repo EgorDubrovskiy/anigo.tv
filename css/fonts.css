@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "BenderBlackItalic";
+	src: url("/fonts/BenderBlackItalic/BenderBlackItalic.eot");
+	src: url("/fonts/BenderBlackItalic/BenderBlackItalic.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/BenderBlackItalic/BenderBlackItalic.woff") format("woff"),
+			 url("/fonts/BenderBlackItalic/BenderBlackItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "BebasBold";
+	src: url("/fonts/BebasBold/BebasBold.eot");
+	src: url("/fonts/BebasBold/BebasBold.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/BebasBold/BebasBold.woff") format("woff"),
+			 url("/fonts/BebasBold/BebasBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "BenderRegular";
+	src: url("/fonts/BenderRegular/BenderRegular.eot");
+	src: url("/fonts/BenderRegular/BenderRegular.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/BenderRegular/BenderRegular.woff") format("woff"),
+			 url("/fonts/BenderRegular/BenderRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
